@@ -1,0 +1,32 @@
+NAME
+       snake.py - reproduction of snake
+
+SYNOPSIS
+        python snake.py
+        python snake.py -l [level] -n [name]
+        python snake.py [OPTION...]
+
+DESCRIPTION
+        You are a snake and to grow you are to eat apple without touching the body of the snake and walls.
+
+        Controls:
+
+        - `Right Arrow` - Move right
+        - `Left Arrow` - Move left
+        - `Down Arrow` - Move down
+        - `Up Arrow` - Move up
+        - `Escape` - Pause
+        - `Escape` - Play
+        - `Space` - Play
+
+OPTIONS
+        -h
+            Output an help message and exit.
+        -l
+            set the level difficulty.
+        -s
+            Output scoreboard.
+        -rs
+            Reset scoreboard.
+        -n
+            Add a name for your game.
